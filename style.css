@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background: #f9f9f9;
+  border-bottom: 0.1rem solid #00000010;
+}
+
+.container {
+  max-width: 121.6rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 0;
+}
+
+header .container .logo h1 {
+  color: #202124;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+header .container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container nav ul {
+  display: flex;
+  gap: 3.2rem;
+  margin-right: 3.2rem;
+}
+
+header .container nav ul li a {
+  color: #202124;
+}
+
+header .container nav ul li a:hover {
+  color: #6246ea;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #6246ea;
+  padding: 1.6rem;
+  border-radius: 0.2rem;
+  transition: box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+  box-shadow: #6246ea 0px 0px 8px 0px;
+}
+
+.main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main .container .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.main .container .text h1 {
+  font-size: 5.6rem;
+  color: #202124;
+  max-width: 56rem;
+  line-height: 5.6rem;
+}
+
+.main .container .text p {
+  color: #202124;
+  max-width: 56rem;
+}
+
+.main .container .man img {
+  max-width: 56rem;
+}
+
+span {
+  color: #6246ea;
+}
+
+#technologies {
+  display: flex;
+  align-items: center;
+}
+
+#technologies .container .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+#technologies .container .cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  border: 0.2rem solid #00000010;
+  border-radius: 0.2rem;
+  padding: 1.6rem;
+  transition: background 0.3s;
+}
+
+#technologies .container .cards .card:hover {
+  background: #f9f9f9;
+}
+
+#technologies .container .cards .card p {
+  color: #202124;
+}
+
+ion-icon {
+  font-size: 6.4rem;
+  color: #6246ea;
+}
