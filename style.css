@@ -83,6 +83,18 @@ button {
   box-shadow: #6246ea 0px 0px 8px 0px;
 }
 
+.btn-secondary {
+  color: #202124;
+  background: #fff;
+  padding: 1.6rem;
+  border-radius: 0.2rem;
+  transition: box-shadow 0.3s;
+}
+
+.btn-secondary:hover {
+  box-shadow: #fff 0px 0px 8px 0px;
+}
+
 .main .container {
   display: flex;
   justify-content: space-between;
@@ -113,6 +125,28 @@ button {
 
 span {
   color: #6246ea;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  background: #6246ea;
+}
+
+#about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+#about .container h2 {
+  font-size: 5.6rem;
+  color: #fff;
+}
+
+#about .container p {
+  color: #fff;
 }
 
 #technologies {
