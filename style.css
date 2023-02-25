@@ -179,7 +179,59 @@ span {
   color: #202124;
 }
 
-ion-icon {
+#technologies .container .cards .card ion-icon {
   font-size: 6.4rem;
+  color: #6246ea;
+}
+
+footer {
+  background: #202124;
+  color: #fff;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.6rem;
+  padding: 1.6rem 0;
+}
+
+footer .footer-content p {
+  max-width: 50rem;
+}
+
+footer .footer-content ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+footer .footer-content ul a {
+  display: flex;
+  color: #fff;
+  font-size: 3.2rem;
+  transition: color 0.3s;
+}
+
+footer .footer-content ul a:hover {
+  color: #6246ea;
+}
+
+footer .footer-bottom {
+  background: #00000010;
+  padding: 1.6rem 0;
+  text-align: center;
+}
+
+footer .footer-bottom a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer .footer-bottom a:hover {
   color: #6246ea;
 }
