@@ -48,12 +48,12 @@ header .container nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3.2rem;
 }
 
 header .container nav ul {
   display: flex;
   gap: 3.2rem;
-  margin-right: 3.2rem;
 }
 
 header .container nav ul li a {
