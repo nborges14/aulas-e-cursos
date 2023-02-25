@@ -199,10 +199,6 @@ footer .footer-content {
   padding: 1.6rem 0;
 }
 
-footer .footer-content p {
-  max-width: 50rem;
-}
-
 footer .footer-content ul {
   display: flex;
   align-items: center;
